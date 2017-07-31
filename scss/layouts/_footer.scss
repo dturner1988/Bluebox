@@ -1,0 +1,27 @@
+/* Footer */
+
+.footer-main{
+	.footer-row1{
+		width:80%;
+		margin:auto;
+		padding:20px;
+		i{
+			padding-right:10px;
+		}
+		.icon-heading-text{
+			padding-bottom:10px;
+			font-size:20px;
+		}
+		p{
+			padding-bottom:10px;
+		}
+	}
+
+	.footer-row2{
+		background-color:#fff;
+		color:$dark-color;
+		.footer-end-links{
+			padding:5px;
+		}
+	}
+}

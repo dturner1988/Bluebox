@@ -1,0 +1,23 @@
+/*
+	Template 1 Theme
+	Author: Dante Turner
+	Version 0.0.1
+*/
+
+/* BASE = Base styles, variables, mixins, etc */
+
+@import 'base/_variables.scss';
+@import 'base/_mixins.scss';
+@import 'base/_base.scss';
+
+/* MODULES - Individual site components */
+
+@import 'modules/_typography.scss';
+@import 'modules/_sections.scss';
+
+/* LAYOUTS - Page layout styles 8? */
+
+@import 'layouts/_nav.scss';
+@import 'layouts/_footer.scss';
+@import 'layouts/_blog.scss';
+@import 'layouts/_mobile.scss';  

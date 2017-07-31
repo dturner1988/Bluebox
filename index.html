@@ -1,0 +1,339 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <title>Bluebox</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+
+    <!-- Custom JS -->
+    <script src="js/template.js" type="text/javascript"><!-- --></script>
+
+  </head>
+
+  <body>
+    <header class="header-main"><!-- Navigation Area -->
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+          <div class="mymenu">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">Bluebox</a>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse pull-right">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </div><!--/.nav-collapse -->
+          </div>
+        </div>
+      </nav>
+    </header><!-- /Naviation Area -->
+
+    <section class="section-showcase full-height"><!-- Full height header with picture and centered text -->
+      <div class="container showcase-content">
+        <h1>Beautiful design. Professional and sleek.</h1>
+        <p class="lead">Your business deserves a great design.</p>
+        <div class="get-started-btn">
+          <a href="#" class="btn btn-default btn-primary">Get Started</a>
+        </div>
+      </div>
+    </section><!-- /header section -->
+
+    <section class="section-whatwedo section-dark"><!-- What We Do icons and preview image -->
+      <div class="container whatwedo-content text-center">
+        <div class="row">
+          <div class="col-md-12 whatwedo-icon-grid">
+            <div class="row">
+              <div class="col-md-12">
+                <h2 class="heading">What We Do</h2>
+              </div>
+            </div>
+            <div class="row whatwedo-options"><!-- Options Icons -->
+              <div class="col-xs-3 whatwedo-icon wwd1 selected-option">
+                <div onclick="changeSelected(1);"><i class="fa fa-refresh fa-3"></i>
+                <br>
+                <h4 class="heading-white hidden-xs">Free Updates</h4></div>
+              </div>
+              <div class="col-xs-3 whatwedo-icon wwd2">
+                <div onclick="changeSelected(2);"><i class="fa fa-laptop fa-3"></i>
+                <br>
+                <h4 class="heading-white hidden-xs">Responsive</h4></div>
+              </div>
+              <div class="col-xs-3 whatwedo-icon wwd3">
+                <div onclick="changeSelected(3);"><i class="fa fa-tasks fa-3"></i>
+                <br>
+                <h4 class="heading-white hidden-xs">Optimized</h4></div>
+              </div>
+              <div class="col-xs-3 whatwedo-icon wwd4">
+                <div onclick="changeSelected(4);"><i class="fa fa-plug fa-3"></i>
+                <br>
+                <h4 class="heading-white hidden-xs">Plug and Play</h4></div>
+              </div>
+            </div><!-- /Options Icons -->
+          </div>
+        </div>
+        <div class="row"><!-- Preview images and contained text -->
+                  <div class="col-md-12 whatwedo-previews wwd-preview1">
+                    <div class="previews-content text-left pc1" id="option1">
+                      <i class="fa fa-refresh fa-3"></i>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur imperdiet hendrerit volutpat.</p>
+                    </div>
+                    <div class="previews-content text-left pc2 hidden" id="option2">
+                      <i class="fa fa-laptop fa-3"></i>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur imperdiet hendrerit volutpat.</p>
+                    </div>
+                    <div class="previews-content text-left pc3 hidden" id="option3">
+                      <i class="fa fa-tasks fa-3"></i>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur imperdiet hendrerit volutpat.</p>
+                    </div>
+                    <div class="previews-content text-left pc4 hidden" id="option4">
+                      <i class="fa fa-plug fa-3"></i>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur imperdiet hendrerit volutpat.</p>
+                    </div>
+                  </div>
+        </div>
+      </div><!-- /Preview area -->
+    </section><!-- /What We Do section -->
+
+    <section class="section-core-features text-center"><!-- Core features section -->
+      <div class="container big-margin">
+        <div class="row">
+          <div class="col-md-12">
+            <h2 class="blue-heading">Core Features</h2>
+            <div class="row">
+              <div class="col-md-4 core-feature">
+                <i class="fa fa-handshake-o fa-3 fa-featured"></i>
+                <h4>Solutions</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur imperdiet hendrerit volutpat. Sed in nunc nec ligula consectetur mollis in vel justo.</p>
+              </div>
+              <div class="col-md-4 core-feature">
+                <i class="fa fa-phone fa-3 fa-featured"></i>
+                <h4>Support</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur imperdiet hendrerit volutpat. Sed in nunc nec ligula consectetur mollis in vel justo.</p>
+              </div>
+              <div class="col-md-4 core-feature">
+                <i class="fa fa-laptop fa-3 fa-featured"></i>
+                <h4>Design</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur imperdiet hendrerit volutpat. Sed in nunc nec ligula consectetur mollis in vel justo.</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-4 core-feature">
+                <i class="fa fa-line-chart fa-3 fa-featured"></i>
+                <h4>Marketing</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur imperdiet hendrerit volutpat. Sed in nunc nec ligula consectetur mollis in vel justo.</p>
+              </div>
+              <div class="col-md-4 core-feature">
+                <i class="fa fa-pie-chart fa-3 fa-featured"></i>
+                <h4>Insights</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur imperdiet hendrerit volutpat. Sed in nunc nec ligula consectetur mollis in vel justo.</p>
+              </div>
+              <div class="col-md-4 core-feature">
+                <i class="fa fa-refresh fa-3 fa-featured"></i>
+                <h4>Sustainability</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur imperdiet hendrerit volutpat. Sed in nunc nec ligula consectetur mollis in vel justo.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- /Core Features section -->
+
+    <section class="section-testimonials section-dark"><!-- Testimonials slider -->
+      <div id="text-carousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#text-carousel" data-slide-to="0" class="active"></li>
+          <li data-target="#text-carousel" data-slide-to="1"></li>
+          <li data-target="#text-carousel" data-slide-to="2"></li>
+        </ol>
+        <!-- Wrapper for slides -->
+        <div class="col-sm-12"><h2 class="heading text-center">Testimonials</h2></div>
+        <div class="row">
+            <div class="col-xs-offset-1 col-xs-10">
+                <div class="carousel-inner">
+                    <div class="item active"><!-- 1st content of slider -->
+                        <div class="carousel-content">
+                              <div class="row">
+                                <div class="col-sm-4">
+                                  <div class="testimonial-pic-div pull-right"><img class="testimonial-pic" src="img/headshot1.jpg"></div>
+                                </div>
+                                <div class="col-sm-8 testimonial-content">
+                                    <div class="content-text">
+                                      <h3>Jane Doe</h3>
+                                      <h4><em>Web Developer, Company</em></h4>
+                                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur imperdiet hendrerit volutpat. Sed in nunc nec ligula consectetur mollis in vel justo.</p>
+                                    </div>
+                                </div>
+                              </div>
+                        </div>
+                    </div><!-- /1st content -->
+                    <div class="item"><!-- 2nd content of slider -->
+                        <div class="carousel-content">
+                            <div class="row">
+                                <div class="col-sm-4">
+                                  <div class="testimonial-pic-div pull-right"><img class="testimonial-pic" src="img/headshot2.jpg"></div>
+                                </div>
+                                <div class="col-sm-8 testimonial-content">
+                                    <div class="content-text">
+                                      <h3>Lilly Doe</h3>
+                                      <h4><em>Web Developer, Company</em></h4>
+                                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur imperdiet hendrerit volutpat. Sed in nunc nec ligula consectetur mollis in vel justo.</p>
+                                    </div>
+                                </div>
+                              </div>
+                        </div>
+                    </div><!-- /2nd content -->
+                    <div class="item"><!-- 3rd content of slider -->
+                        <div class="carousel-content">
+                            <div class="row">
+                                <div class="col-sm-4">
+                                  <div class="testimonial-pic-div pull-right"><img class="testimonial-pic" src="img/headshot3.jpg"></div>
+                                </div>
+                                <div class="col-sm-8 testimonial-content">
+                                    <div class="content-text">
+                                      <h3>John Doe</h3>
+                                      <h4><em>Web Developer, Company</em></h4>
+                                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur imperdiet hendrerit volutpat. Sed in nunc nec ligula consectetur mollis in vel justo.</p>
+                                    </div>
+                                </div>
+                              </div>
+                        </div>
+                    </div><!-- /3rd content -->
+                    
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </section><!-- /Testimonials slider -->
+
+    <section class="section-pricing text-center"><!-- Pricing Plans -->
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2 class="heading blue-heading">Pricing Plans</h2>
+          </div>
+        </div>
+        <div class="row plans">
+            <div class="col-sm-4">
+              <div class="price-group section-highlight-light">
+                <h3 class="pricing-plan">Starter</h3>
+                <div class="free-price">free!</div>
+                <p>
+                  3 User Accounts<br>
+                  3 Email Addresses<br>
+                  Unlimited Access<br>
+                  5 GB Space
+                </p>
+                <a href="#" class="btn btn-default btn-primary">Sign Up</a>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="price-group section-highlight-light">
+                <h3 class="pricing-plan">Pro</h3>
+                <div class="the-price">$49.99 / mo</div>
+                <p>
+                  10 User Accounts<br>
+                  10 Email Addresses<br>
+                  Unlimited Access<br>
+                  15 GB Space
+                </p>
+                <a href="#" class="btn btn-default btn-primary">Sign Up</a>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="popular-plan section-light">
+                <h3 class="pricing-plan">Business</h3>
+                <div class="the-price">$159.99 / mo</div>
+                <p>
+                  Unlimited User Accounts<br>
+                  Unlimited Email Addresses<br>
+                  Unlimited Access<br>
+                  Unlimited Space
+                </p>
+                <a href="#" class="btn btn-default btn-primary">Sign Up</a>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+          <div class="col-md-8 col-md-offset-2"><h3 class="dark-blue-heading">We're excited to get to work with you! This will be our best year yet and we want you to be a part of it!</h3></div>
+          </div>
+      </div>
+    </section><!-- /Pricing Plans -->
+
+    <footer class="footer-main section-dark"><!-- Footer -->
+      <div class="container-fluid">
+        <div class="row footer-row1">
+          <div class="col-md-4">
+            <div class="row">
+              <div class="col-sm-12 icon-heading-text"><i class="fa fa-address-book-o"></i>Contact Us</div>
+            </div>
+            <p>
+              (888) 888-8888<br>
+              info@mytheme.com<br>
+              111 My Street<br>
+              Sunshine, SC 10101
+            </p>
+          </div>
+          <div class="col-md-4">
+            <div class="row">
+              <div class="col-sm-12 icon-heading-text"><i class="fa fa-group"></i>About Us</div>
+            </div>
+            <p>
+              We make beautiful, responsive, and creative templates.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <div class="row">
+              <div class="col-sm-12 icon-heading-text"><i class="fa fa-envelope-o"></i>Newsletter</div>
+            </div>
+            <p>
+              Stay up to day with our latest news and product releases by signing up for our newsletter.
+            </p>
+            <div class="input-group">
+              <input type="email" class="form-control" placeholder="Email Address">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="button">Submit</button>
+              </span>
+            </div><!-- /input-group -->
+          </div>
+        </div><!-- /row -->
+        <div class="row footer-row2">
+          <div class="col-md-6">Bluebox template by Dante Turner | Copyright 2017 © Dante Turner</div>
+          <div class="col-md-6 text-right">
+            <a href="#" class="footer-end-links">Terms </a>
+            <a href="#" class="footer-end-links">Privacy </a>
+            <a href="#" class="footer-end-links">Contact Us</a>
+          </div>
+        </div>
+      </div><!-- /container -->
+    </footer><!-- /footer -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>

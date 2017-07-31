@@ -1,0 +1,11 @@
+/* Mixins */
+
+@mixin add-background($color){
+ 	background:$color;
+ 	@if $color == $highlight-light{
+ 		color:#131313;
+ 	}
+ 	@else{
+ 		color:#fff;
+ 	}
+ }

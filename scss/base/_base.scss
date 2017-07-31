@@ -1,0 +1,19 @@
+/* Base CSS */
+
+@font-face {
+    font-family: "myRoboto";
+    src: url('/fonts/Roboto-Regular.ttf')  format('truetype');
+}
+
+html{
+	height:100%;
+}
+
+body{
+	font-family: "myRoboto";
+	font-size:$base-font-size;
+	line-height:1.7em;
+	color:#base-font-color;
+	height:100%;
+	width:auto;
+}
